@@ -1,0 +1,68 @@
+{
+  "embeds": {
+    "openTicket": {
+      "title": "Abrir un Ticket",
+      "description": "Haga clic en el botón para comenzar a abrir un Ticket",
+      "footer": {
+        "text": "CloudCraft"
+      }
+    },
+    "ticketOpened": {
+      "title": "Ticket CATEGORYNAME",
+      "description": "Un Miembro del staff le responderá lo antes posible!",
+      "footer": {
+        "text": "CloudCraft"
+      }
+    },
+    "ticketClosed": {
+      "title": "Ticket cerrado",
+      "description": "El ticket ha sido cerrado por CLOSERNAME Con la siguiente razón: `REASON`"
+    },
+    "ticketClosedDM": {
+      "title": "Ticket cerrado",
+      "description": "El Ticket n°TICKETCOUNT ha sido cerrado por CLOSERNAME Con la siguiente razón: `REASON`\n\nAquí está la transcripción del ticket: TRANSCRIPTURL",
+      "footer": {
+        "text": "CloudCraft"
+      }
+    }
+  },
+  "modals": {
+    "reasonTicketOpen": {
+      "title": "Abrir Ticket",
+      "label": "La razón de tu ticket",
+      "placeholder": "Ingrese el motivo de por qué está abriendo un ticket"
+    },
+    "reasonTicketClose": {
+      "title": "Cerrar Ticket",
+      "label": "La razón del cierre de tickets",
+      "placeholder": "Ingrese el motivo de por qué está cerrando el ticket"
+    }
+  },
+  "buttons": {
+    "close": {
+      "label": "Cerrar Ticket",
+      "emoji": "🔒"
+    },
+    "claim": {
+      "label": "Reclamar",
+      "emoji": "🙋"
+    }
+  },
+  "ticketOpenedMessage": "ticket abierto! TICKETCHANNEL",
+  "ticketOnlyClaimableByStaff": "¡El ticket solo puede ser reclamado por un miembro del Staff!",
+  "ticketAlreadyClaimed": "El ticket ya está reclamado!",
+  "ticketClaimedMessage": "> ticket reclamado por USER",
+  "ticketOnlyClosableByStaff": "Solo el personal puede cerrar el ticket!",
+  "ticketAlreadyClosed": "¡El ticket ya está cerrado!",
+  "ticketCreatingTranscript": "> Creación de transcripción...",
+  "ticketTranscriptCreated": "> Transcripción creada! TRANSCRIPTURL",
+  "ticketLimitReached": "Solo puedes tener TICKETLIMIT ¡Las entradas se abrieron al mismo tiempo!",
+
+  "other": {
+    "openTicketButtonMSG": "Abrir un ticket",
+    "deleteTicketButtonMSG": "Eliminar el Tickets",
+    "selectTicketTypePlaceholder": "Seleccione un tipo de ticket",
+    "claimedBy": "**Reclamado por**: USER",
+    "noReasonGiven": "Ninguna razón dada"
+  }
+}
